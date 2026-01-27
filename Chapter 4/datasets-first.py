@@ -1,7 +1,6 @@
 """
     Python Interpreter version: 3.11
-    TensorFlow version: 2.20.0
-    TensorFlow-addons version: 0.22.0
+    TensorFlow version: 2.15.0
     TensorFlow datasets version: 4.9.9
 """
 
