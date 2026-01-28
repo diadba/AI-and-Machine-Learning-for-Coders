@@ -7,9 +7,6 @@
 
 import tensorflow as tf
 import tensorflow_datasets as tfds
-from tensorflow_datasets.image_classification import cats_vs_dogs
-import tensorflow_addons as tfa
-import numpy as np
 import multiprocessing
 
 # Creating the model architecture
