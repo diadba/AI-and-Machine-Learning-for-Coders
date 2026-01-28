@@ -1,6 +1,6 @@
 """
     Python Interpreter version: 3.11
-    TensorFlow version: 2.15.0
+    TensorFlow version: 2.14.0
 """
 from typing import Any
 from tensorflow.keras.preprocessing.text import Tokenizer
