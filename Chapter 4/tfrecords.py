@@ -9,7 +9,7 @@ import tensorflow_datasets as tfds
 
 data, info = tfds.load("mnist", with_info=True)
 
-filename="C:/users/acoots/tensorflow_datasets/mnist/3.0.1/mnist-test.tfrecord-00000-of-00001"
+filename="C:/users/{user}/tensorflow_datasets/mnist/3.0.1/mnist-test.tfrecord-00000-of-00001"
 raw_dataset = tf.data.TFRecordDataset(filename)
 for raw_record in raw_dataset:
     print(repr(raw_record))
