@@ -84,7 +84,7 @@ print(decoded_review)
 ### Trying Subwords
 (train_data, test_data), info = tfds.load(
     # use the version pre-encoded with an ~8k vocabulary.
-    'imdb_reviews/subwords8k',                                              # now deprecated.
+    'imdb_reviews/subwords8k',                                              # now deprecated as before 2026.
     # return the train/test datasets as a tuple.
     split=(tfds.Split.TRAIN, tfds.Split.TEST),
     # return (example, label) pairs from the dataset (instead of a dictionary).
