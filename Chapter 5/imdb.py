@@ -2,6 +2,7 @@
     Python Interpreter version: 3.11
     TensorFlow version: 2.14.0
     BeautifulSoup version: 4.13.0
+    NOTES: The subwords8k dataset is unavailable at this time (01/30/2026).
 """
 
 import tensorflow as tf
