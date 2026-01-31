@@ -4,7 +4,6 @@
     BeautifulSoup version: 4.14.3
 """
 
-import tensorflow as tf
 from tensorflow.keras.preprocessing.text import Tokenizer
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 from bs4 import BeautifulSoup
